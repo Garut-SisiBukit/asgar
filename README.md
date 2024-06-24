@@ -1,15 +1,15 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=SPS TUNNELING AUTOSCRIPT !;Explore the world of features!" /></p>
+  <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=35&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=ADIJAYA STORE TUNNELING !;Explore the world of features!" /></p>
   
 ### CHANGE AUTO ROOT FOR DEBIAN & UBUNTU 22.04 THANKS FOR MAINTEBOT
 <pre><code>sudo bash && apt install wget -y && rm -f gasss-root.sh && apt install wget whois -y && wget https://raw.githubusercontent.com/maintebot/change-root/main/gasss-root.sh && chmod +x gasss-root.sh && ./gasss-root.sh && rm gasss-root.sh</code></pre>
 
 ### INSTALL SCRIPT 
-<pre><code>wget -q https://raw.githubusercontent.com/sabdo-dadi/premium/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>wget -q https://raw.githubusercontent.com/Garut-SisiBukit/asgar/main/setupp.sh && chmod +x setupp.sh && ./setupp.sh
 </code></pre>
 
 ### PERINTAH UPDATE 
-<pre><code>wget -q https://raw.githubusercontent.com/sabdo-dadi/premium/main/update1.sh && chmod +x update1.sh && ./update1.sh</code></pre>
+<pre><code>wget -q https://raw.githubusercontent.com/Garut-SisiBukit/asgar/main/update1.sh && chmod +x update1.sh && ./update1.sh</code></pre>
 
 ### TESTED ON OS 
 - UBUNTU 20.04.05
