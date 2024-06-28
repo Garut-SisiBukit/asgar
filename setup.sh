@@ -585,12 +585,12 @@ apt install rclone -y
 printf "q\n" | rclone config
 wget -O /root/.config/rclone/rclone.conf "${REPO}Cfg/rclone.conf"
 cd /bin
-git clone  https://github.com/LunaticBackend/wondershaper.git
+git clone  https://github.com/magnific0/wondershaper.git
 cd wondershaper
 sudo make install
 cd
 rm -rf wondershaper
-echo > /home/files
+echo > /home/Fls
 apt install msmtp-mta ca-certificates bsd-mailx -y
 cat<<EOF>>/etc/msmtprc
 defaults
@@ -601,9 +601,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77
+user teohazzam@gmail.com
+from teohazzam@gmail.com
+password temz dkhh ndfn uyga
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
