@@ -17,19 +17,19 @@ apt update && apt upgrade
 apt install neofetch -y
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/sabdo-dadi/premium/main/Bot/bot.zip
+wget https://raw.githubusercontent.com/SisiBukit/asgar/main/Bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/sabdo-dadi/premium/main/Bot/kyt.zip
+wget https://raw.githubusercontent.com/SisiBukit/asgar/main/Bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
 #isi data
 echo ""
-figlet  Newbie Vpn  | lolcat
+figlet  Adijaya Vpn  | lolcat
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
