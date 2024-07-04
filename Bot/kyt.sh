@@ -3,33 +3,24 @@ NS=$( cat /etc/xray/dns )
 PUB=$( cat /etc/slowdns/server.pub )
 domain=$(cat /etc/xray/domain)
 #color
-
-cd /etc/systemd/system/
-rm -rf kyt.service
-cd
 grenbo="\e[92;1m"
 NC='\e[0m'
 #install
-cd /usr/bin
-rm -rf kyt
-rm -rf bot
 apt update && apt upgrade
-apt install neofetch -y
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://raw.githubusercontent.com/sabdo-dadi/premium/main/Bot/bot.zip
+wget https://raw.githubusercontent.com/Garut-SisiBukit/asgar/main/Bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://raw.githubusercontent.com/sabdo-dadi/premium/main/Bot/kyt.zip
+wget https://raw.githubusercontent.com/Garut-SisiBukit/asgar/main/Bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
 #isi data
 echo ""
-figlet  Newbie Vpn  | lolcat
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -44,7 +35,6 @@ echo -e ADMIN='"'$admin'"' >> /usr/bin/kyt/var.txt
 echo -e DOMAIN='"'$domain'"' >> /usr/bin/kyt/var.txt
 echo -e PUB='"'$PUB'"' >> /usr/bin/kyt/var.txt
 echo -e HOST='"'$NS'"' >> /usr/bin/kyt/var.txt
-echo -e "#bot# $bottoken $admin" >/etc/bot/.bot.db
 clear
 
 cat > /etc/systemd/system/kyt.service << END
@@ -72,6 +62,8 @@ echo -e "==============================="
 echo "Token Bot         : $bottoken"
 echo "Admin          : $admin"
 echo "Domain        : $domain"
+echo "Pub            : $PUB"
+echo "Host           : $NS"
 echo -e "==============================="
 echo "Setting done"
 clear
